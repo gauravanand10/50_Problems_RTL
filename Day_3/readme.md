@@ -21,3 +21,13 @@ Learn how to create FPGA designs using Vivado Block Design instead of writing RT
 5. Connect Blocks Graphically
 6. Generate HDL Wrapper
 7. Simulate Design
+
+## Learnings
+
+- Difference between Text-Based and Graphic-Based Design
+- Creating reusable IP blocks
+- Using Vivado Block Design
+- Connecting modules graphically
+- HDL Wrapper Generation
+- Building a Full Adder using Half Adders
+- IP Integration Concepts
