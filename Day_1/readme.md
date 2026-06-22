@@ -2,11 +2,26 @@
 
 ## Objective
 
-Learn the fundamentals of Verilog HDL by implementing and simulating a Half Adder.
+Learn the fundamentals of Verilog HDL by designing, simulating, and verifying a Half Adder.
 
----
+## Design
 
-## Topics Covered
+Half Adder with:
+
+- Sum Output
+- Carry Output
+
+## Flow
+
+1. Create Half Adder RTL
+2. Define Inputs and Outputs
+3. Implement Combinational Logic using `assign`
+4. Create a Testbench
+5. Apply Input Combinations
+6. Run Behavioral Simulation
+7. Verify Outputs using the Truth Table
+
+## Learnings
 
 - Verilog Module Structure
 - Inputs and Outputs
@@ -15,44 +30,25 @@ Learn the fundamentals of Verilog HDL by implementing and simulating a Half Adde
 - AND (`&`) Operator
 - Writing a Basic Testbench
 - Running Behavioral Simulation
+- Understanding Combinational Logic
+- Verifying RTL Functionality
 
----
+## Key Observation
 
-## Design
+The Half Adder performs the addition of two 1-bit inputs:
 
-### Half Adder
-
-A Half Adder adds two 1-bit inputs and produces:
-
-- Sum
-- Carry
-
-### Truth Table
-
-| A | B | Sum | Carry |
-|---|---|-----|--------|
-| 0 | 0 |  0  |   0    |
-| 0 | 1 |  1  |   0    |
-| 1 | 0 |  1  |   0    |
-| 1 | 1 |  0  |   1    |
-
----
+- Sum is generated using the XOR operation
+- Carry is generated using the AND operation
+- Simulation results match the expected truth table
 
 ## RTL
 
-### Equation
+### Equations
 
-```text
-Sum   = A XOR B
+Sum = A XOR B
+
 Carry = A AND B
-```
 
-## Learnings
+## Conclusion
 
-- A Verilog design starts with a module.
-- Inputs and outputs define the interface.
-- `assign` is used for combinational logic.
-- `^` represents XOR operation.
-- `&` represents AND operation.
-- Testbenches are used to verify RTL functionality.
-- Simulation is the first step before synthesis.
+A Half Adder is one of the simplest combinational circuits and serves as an excellent introduction to Verilog HDL. This exercise demonstrates module creation, combinational logic implementation, testbench development, and functional verification through simulation.
