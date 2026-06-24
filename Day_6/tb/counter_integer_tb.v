@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module counter_integer_tb;
+module counter_tb;
 
 	reg clk;
 	reg rst;
