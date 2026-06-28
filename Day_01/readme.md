@@ -1,4 +1,4 @@
-# Day 1 - Half Adder (Introduction to Verilog)
+# Day 1 - Half Adder 
 
 ## Objective
 
